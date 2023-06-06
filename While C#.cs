@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         int num, i = 1;
-
+        //pede pro usuario inserir um numero inteiro positivo
         Console.Write("Digite um numero inteiro positivo: ");
         num = int.Parse(Console.ReadLine());
 
