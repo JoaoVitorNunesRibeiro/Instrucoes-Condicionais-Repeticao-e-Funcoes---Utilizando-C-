@@ -24,7 +24,7 @@ namespace Calculator
                 num2 = double.Parse(Console.ReadLine());
 
                 resultado = calculator.Calculate(num1, num2, operador);
-
+                //condições, caso de tentativa de divisao por zero aparecerá a mensagem que esta entre aspas e em qualquer outra ocasião a divisão será feita normalmente
                 if (double.IsNaN(resultado))
                 {
                     Console.WriteLine("Erro: divisão por zero!");
@@ -32,14 +32,14 @@ namespace Calculator
                 else
                 {
                     Console.WriteLine("O resultado é: " + resultado);
-                }
+                } //aqui toda vez que o usuario responder a pergunta com "s" ou "S", vai fazer o programa repetir
 Console.Write("Deseja fazer outro cálculo? (S/N): ");
                 resposta = char.Parse(Console.ReadLine());
                 Console.WriteLine();
             } while (resposta == 's' || resposta == 'S');
         }
     }
-
+    //programa para fazer os calculos de adição, subtração, multiplicação e divisão.
     class Calculator
     {
         public double Calculate(double num1, double num2, char operador)
@@ -50,10 +50,10 @@ Console.Write("Deseja fazer outro cálculo? (S/N): ");
                     return num1 + num2;
                 case '-':
                     return num1 - num2;
-                case '':
+                case '*':
                     return num1 num2;
                 case '/':
-                    if (num2 == 0)
+                    if (num2 == 0) //condições, caso de tentativa de divisao por zero aparecerá a mensagem que esta entre aspas e em qualquer outra ocasião a divisão será feita normalmente
                     {
                         return double.NaN;
                     }
