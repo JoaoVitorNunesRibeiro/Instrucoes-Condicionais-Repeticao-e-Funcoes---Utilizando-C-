@@ -12,8 +12,7 @@
 ...
 
 ## Descrição do projeto
-Exercício de criação de programa dividido em duas etapas, ou seja, dois códigos, ambos em linguagem C#.
-O código 1 consiste em criar um programa para ler as medidas dos lados de dois triângulos X e Y, utilizando função, que mostre o valor para seu usário e também o que possui maior área, o código é a mesma coisa, porém, ao invés de utilizar função, usar classe.
+Exercício individual proposto tem como objetivo passar os exemplos anteriormente vistos, tais como: Exemplo Calculadora Switch, Exemplo While, Exemplo Do While, Exemplo For, Exercício Protótipo de Função, que estavam em linguagem C++, para linguagem C#
 
 ## Como rodar a aplicação 
 Rode os programas no "Visual Studio" que lê linguagem C# e em seguida de as informações que o programa pede.
