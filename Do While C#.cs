@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         int num;
-        // do while pede pro programa fazer uma ação enquanto outra for verdadeira
+        // do while executa um bloco de código pelo menos uma vez e continua repetindo enquanto a condição for verdadeira
         do
         {   //pede pro usuário inserir um numero entre 1 e 10
             Console.Write("Digite um número entre 1 e 10: ");
