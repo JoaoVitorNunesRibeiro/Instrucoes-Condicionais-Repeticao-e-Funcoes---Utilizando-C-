@@ -8,13 +8,13 @@ class Program
         //pede pro usuario inserir um numero inteiro positivo
         Console.Write("Digite um numero inteiro positivo: ");
         num = int.Parse(Console.ReadLine());
-
+        //executa um bloco de código enquanto a condição especificada for verdadeira
         while (i <= num)
         {
             Console.Write(i + " ");
             i++;
         }
-
+        //imprime o código
         Console.ReadLine();
     }
 }
