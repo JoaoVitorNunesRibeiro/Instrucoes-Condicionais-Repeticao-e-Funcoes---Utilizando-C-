@@ -1,5 +1,5 @@
 using System;
-
+//quando criamos a classe de alguma coisa, inserimos os elementos/variaveis e como irá funcionara, ou seja, o método.
 class Program
 {
     static void Main(string[] args)
