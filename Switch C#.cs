@@ -10,7 +10,7 @@ namespace Calculator
 
             char resposta;
             do
-            {
+            {   //interface pro usuario inserir dois valores e um operador
                 double num1, num2, resultado;
                 char operador;
 
