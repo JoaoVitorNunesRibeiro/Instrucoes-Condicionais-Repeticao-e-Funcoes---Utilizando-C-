@@ -51,7 +51,7 @@ Console.Write("Deseja fazer outro cálculo? (S/N): ");
                 case '-':
                     return num1 - num2;
                 case '*':
-                    return num1 num2;
+                    return num1 * num2;
                 case '/':
                     if (num2 == 0) //condições, caso de tentativa de divisao por zero aparecerá a mensagem que esta entre aspas e em qualquer outra ocasião a divisão será feita normalmente
                     {
